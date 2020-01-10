@@ -1,6 +1,6 @@
 package com.Odoo.pages;
 
-
+// base page
 import com.Odoo.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
