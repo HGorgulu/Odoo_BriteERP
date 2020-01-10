@@ -1,4 +1,4 @@
-package Odoo.pages;
+package com.Odoo.pages;
 
 public class LoginPage {
 }
