@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue="src/test/java/StepDefinitions",
+        glue="com/Odoo/step_definitions",
         dryRun = false,
-        tags="@Odoo"
+        tags="@CRM"
 
 
 )
