@@ -1,6 +1,7 @@
 package com.Odoo.pages;
 
 
+import com.Odoo.utilities.BrowserUtils;
 import com.Odoo.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
-//eda yamanoglu
+    //eda yamanoglu
     @FindBy(css = "div[class='loader-mask shown']")
     public WebElement loaderMask;
 
@@ -31,4 +32,9 @@ public class BasePage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-}
+        public String getPageSubTitle() {
+            //any time we are verifying page name, or page subtitle
+            BrowserUtils.waitForStaleElement(pageSubTitle);
+            return pageSubTitle.getText(); // Ali
+        }
+    }
