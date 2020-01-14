@@ -31,6 +31,7 @@ public class BasePage {
         //this means this page class
         PageFactory.initElements(Driver.get(), this);
     }
+
         public String getPageSubTitle() {
             //any time we are verifying page name, or page subtitle
             BrowserUtils.waitForStaleElement(pageSubTitle);

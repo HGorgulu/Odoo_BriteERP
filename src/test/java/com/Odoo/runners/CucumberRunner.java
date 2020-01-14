@@ -11,10 +11,6 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags="@Odoo_Eda"
 
-
-
-
-
 )
 public class CucumberRunner {
 
