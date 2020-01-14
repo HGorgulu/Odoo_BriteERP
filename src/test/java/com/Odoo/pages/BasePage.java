@@ -30,4 +30,5 @@ public class BasePage {
         //this means this page class
         PageFactory.initElements(Driver.get(), this);
     }
+
 }

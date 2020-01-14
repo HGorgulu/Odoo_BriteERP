@@ -9,7 +9,11 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue="com/Odoo/step_definitions",
         dryRun = false,
+ eda
+        tags="@Odoo_Eda"
+=======
         tags="@CRM"
+ master
 
 
 )
