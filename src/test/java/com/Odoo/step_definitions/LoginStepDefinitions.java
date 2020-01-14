@@ -19,7 +19,7 @@ public class LoginStepDefinitions {
 
     @When("user enters {string} and {string} and click Sign in button")
     public void user_enters_and_and_click_Sign_in_button(String string, String string2) {
-
+        System.out.println();
     }
 
     @Then("user should be on {string} page")
@@ -39,6 +39,8 @@ public class LoginStepDefinitions {
     public void error_message_should_be_displayed() {
 
     }
+
+
 
 
 }

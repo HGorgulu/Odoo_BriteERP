@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
-
+    //eda yamanoglu
     @FindBy(css = "div[class='loader-mask shown']")
     public WebElement loaderMask;
 
