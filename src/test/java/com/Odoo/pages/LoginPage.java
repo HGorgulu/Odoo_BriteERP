@@ -12,13 +12,13 @@ public class LoginPage {
 
     }
 
-    //Eda
+  
     @FindBy(name = "login")
     public WebElement Email;
-    //Eda
+    
     @FindBy(name = "password")
     public WebElement password;
-    //Eda
+
     @FindBy(xpath = "( //button[@class='btn btn-primary']")
     public WebElement Login;
 
