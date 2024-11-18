@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue="com/Odoo/step_definitions",
         dryRun = false,
-        tags="@Odoo_Eda"
+        tags="  @Odoo_Tst"
 
 )
 public class CucumberRunner {
